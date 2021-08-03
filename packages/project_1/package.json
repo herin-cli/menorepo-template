@@ -1,0 +1,23 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "scripty",
+    "build": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
+  },
+  "devDependencies": {
+    "@types/rollup": "^0.54.0",
+    "rollup": "^2.52.8",
+    "rollup-merge-config": "^0.0.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "scripty": "^2.0.0"
+  }
+}

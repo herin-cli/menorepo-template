@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.setting.json", // 继承 packages 目录下通用配置
+    "compilerOptions": {
+      "baseUrl": "./",
+      "composite": true,                   // 用于帮助 TypeScript 快速确定引用工程的输出文件位置
+      "outDir": "dist",
+      "rootDir": "src"
+    },
+    "include": ["src"],
+    "exclude": ["dist"]
+}
+  
